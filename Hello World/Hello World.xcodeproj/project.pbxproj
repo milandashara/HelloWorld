@@ -22,6 +22,7 @@
 		3F08BB9118F9653200DD0C91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F08BB8F18F9653200DD0C91 /* InfoPlist.strings */; };
 		3F08BB9318F9653200DD0C91 /* Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F08BB9218F9653200DD0C91 /* Hello_WorldTests.m */; };
 		3F08BB9D18F967AB00DD0C91 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F08BB9C18F967AB00DD0C91 /* ViewController.xib */; };
+		3FEC256C18F9BBE4000FB544 /* milan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC256B18F9BBE4000FB544 /* milan.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3F08BB9018F9653200DD0C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F08BB9218F9653200DD0C91 /* Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldTests.m; sourceTree = "<group>"; };
 		3F08BB9C18F967AB00DD0C91 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3FEC256B18F9BBE4000FB544 /* milan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = milan.jpg; path = ../../milan.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		3F08BB8D18F9653200DD0C91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FEC256B18F9BBE4000FB544 /* milan.jpg */,
 				3F08BB8E18F9653200DD0C91 /* Hello WorldTests-Info.plist */,
 				3F08BB8F18F9653200DD0C91 /* InfoPlist.strings */,
 			);
@@ -234,6 +237,7 @@
 				3F08BB9D18F967AB00DD0C91 /* ViewController.xib in Resources */,
 				3F08BB8018F9653200DD0C91 /* Images.xcassets in Resources */,
 				3F08BB7218F9653200DD0C91 /* InfoPlist.strings in Resources */,
+				3FEC256C18F9BBE4000FB544 /* milan.jpg in Resources */,
 				3F08BB7B18F9653200DD0C91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +468,7 @@
 				3F08BB9818F9653200DD0C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F08BB9918F9653200DD0C91 /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +477,7 @@
 				3F08BB9B18F9653200DD0C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
